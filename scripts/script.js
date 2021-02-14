@@ -4,7 +4,7 @@
  *             https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/String
  *             https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
  *              
- *  */ 
+ */ 
 
 // create a Set of products(objects), cart, that will update the items in the shopping Cart
 var cart = new Set(); 
