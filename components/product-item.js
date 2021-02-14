@@ -29,7 +29,7 @@ class ProductItem extends HTMLElement {
     let buttonElement = document.createElement('button');
     buttonElement.textContent = 'Add to Cart';
     // make onclick event to respond the function updateCart
-    buttonElement.setAttribute('onclick', 'updateCart(this)');
+    buttonElement.setAttribute('onclick', 'updateShoppingCart(this)');
     liElement.appendChild(buttonElement);
 
     // make liElement as a child of shadowRoot
